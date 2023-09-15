@@ -1,0 +1,11 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: Perfil
+
+nombres: Jhonatan Rodriguez Muñoz
+submodulo: Lógica de Programación
+periodo: 2023-2
+url_foto: https://firebasestorage.googleapis.com/v0/b/proyecto1-11e37.appspot.com/o/286455737_10159767365963654_2726372448097699938_n.jpg?alt=media&token=3da19126-2d0b-4a7d-abc1-496e1887c3f3
+
