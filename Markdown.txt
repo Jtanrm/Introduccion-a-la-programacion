@@ -1,1 +1,1 @@
-https://github.com/Jtanrm/evidencia_Logica_de_Programacion.git
+https://github.com/Jtanrm/LogicaDeProgramacion.git
