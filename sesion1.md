@@ -8,7 +8,8 @@
 1035431495
 
 
-# Actividad 1: Diagnóstico de aprendizajes previos (Trabajo grupal)
+# Actividad 1: Diagnóstico de aprendizajes previos 
+
 Objetivo: Desarrollar habilidades de pensamiento lógico y resolución de problemas.
 
 Ejercicio 1: El juego de la adivinanza
@@ -16,16 +17,22 @@ Ejercicio 1: El juego de la adivinanza
 Instrucciones:
 
 -El docente piensa en un número entre 1 y 100 (puede ser cualquier número).
+
 -Los estudiantes hacen preguntas de sí o no para tratar de adivinar el número que el docente ha pensado.
+
 -El docente solo puede responder con "sí" o "no" a cada pregunta.
+
 -Los estudiantes deben usar la lógica para hacer preguntas que reduzcan el rango de posibilidades del número a adivinar.
+
 ## Ejercicio 2: "El juego de los interruptores"
 
 Instrucciones:
 
 - En la habitación hay tres interruptores, cada uno con dos estados: encendido o apagado.
 -Solo uno de los interruptores enciende una luz en la habitación adyacente; los otros dos no tienen ninguna función.
+
 -El objetivo del juego es que los estudiantes descubran qué interruptor enciende la luz con una única verificación del estado en la habitación adyacente.
+
 - Para lograrlo, los estudiantes deben usar la lógica y determinar qué interruptor deben encender para reducir el rango de posibilidades del interruptor correcto.
 
 ### Actividad de consulta
@@ -47,6 +54,7 @@ Instrucciones:
 La lógica de programación se refiere a la forma de pensar y organizar las instrucciones para
 que una computadora pueda resolver un problema dado. Implica analizar un problema e idear
 un conjunto ordenado de pasos o instrucciones que permitan llegar a la solución.
+
 2. ¿Cuáles son los elementos básicos de la lógica de programación?
 Algoritmo: es una secuencia lógica de pasos que se deben seguir para resolver un problema o
 realizar una tarea.
@@ -74,9 +82,11 @@ El lenguaje de programación son una serie de instrucciones y secuencias que se 
 computador. Ósea se le dice a la máquina lo que debe hace, que variables o que algoritmos
 debe cumplir. En cambio, el lenguaje de marcado solo organiza el contenido acorde como
 este debe ir.
+
 4. ¿Qué es un algoritmo y para que se utiliza en la programación?
 Es una serie de instrucciones secuenciales que van una después de la otra y permiten ejecutar
 acciones o programas.
+
 5. ¿Cuáles son las principales diferencias entre los diferentes lenguajes de
 programación?
 Los lenguajes de programación varían en términos de nivel de abstracción, paradigmas de
@@ -92,6 +102,7 @@ portabilidad de los programas.
 6.Cómo se utiliza la lógica booleana en la programación?
 Es un sistema basado en la lógica matemática y solo permite 2 valores (True fail), verdadero
 o falso.
+
 7. Que son las estructuras de control de flujo y cómo se utilizan en la programación?
 Son el conjunto de reglas que permiten controlar el flujo de ejecución de las instrucciones de
 un algoritmo, sirven para alterar, controlar o modificar el orden en el que se ejecutan las
@@ -138,16 +149,19 @@ fácil de mantener. Sigue el principio de desarrollo de software utilizado por m
 programadores DRY (Don’t Repeat Yourself), para evitar duplicar el código y crear de esta
 manera programas eficientes. Además, evita el acceso no deseado a los datos o la exposición
 de código propietario mediante la encapsulación y la abstracción
-#### La encapsulación: contiene toda la información importante de un objeto dentro del
+#### La encapsulación: 
+contiene toda la información importante de un objeto dentro del
 mismo y solo expone la información seleccionada al mundo exterior.
  La abstracción: cuando el usuario interactúa solo con los atributos y métodos
 seleccionados de un objeto, utilizando herramientas simplificadas de alto nivel para
 acceder a un objeto complejo.
-#### La herencia: define relaciones jerárquicas entre clases, de forma que atributos y
+#### La herencia:
+define relaciones jerárquicas entre clases, de forma que atributos y
 métodos comunes puedan ser reutilizados. Las clases principales extienden atributos y
 comportamientos en las clases secundarias. A través de la definición en una clase de
 los atributos y comportamientos básicos, se pueden crear clases secundarias, ampliando así la
 funcionalidad de la clase principal y agregando atributos y comportamientos adicionales.
-#### El polimorfismo: consiste en diseñar objetos para compartir comportamientos, lo
+#### El polimorfismo: 
+consiste en diseñar objetos para compartir comportamientos, lo
 que nos permite procesar objetos de diferentes maneras. Es la capacidad de presentar
 la misma interfaz para diferentes formas subyacentes o tipos de datos.
