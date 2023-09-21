@@ -9,12 +9,57 @@
 
 # Conceptos básicos de programación
 
- Los conceptos básicos de programación son los siguientes:
+Los conceptos básicos de programación son los siguientes:
 
-Algoritmo: es una secuencia lógica de pasos que se deben seguir para resolver un problema o realizar una tarea.
+- Algoritmo: es una secuencia lógica de pasos que se deben seguir para resolver un problema o realizar una tarea.
 
+- Variables: son espacios reservados en la memoria de un computador que se utilizan para almacenar datos temporales o permanentes.
 
+- Tipos de datos: son las diferentes categorías de información que se pueden almacenar en una variable, como números, cadenas de texto, booleanos, entre otros.
 
+- Estructuras de control de flujo: son herramientas que permiten controlar el flujo de ejecución de un programa, como las estructuras condicionales (if-else, switch) y las estructuras iterativas (while, for).
+
+- Funciones o métodos: son bloques de código que se pueden reutilizar en diferentes partes de un programa para realizar una tarea específica.
+
+- Depuración: es el proceso de encontrar y corregir errores en un programa.
+
+- Programación orientada a objetos: es un paradigma de programación que se basa en la creación de objetos, que combinan datos y funciones en una sola entidad.
+
+- Modularidad: es la técnica de dividir un programa en módulos o partes más pequeñas y manejables para facilitar su desarrollo y mantenimiento.
+
+- Comentarios: son notas que se incluyen en el código fuente para explicar su funcionamiento o para hacer anotaciones importantes para el programador.
+
+- Variables globales y locales: son variables que se utilizan en diferentes partes de un programa (globales) o solo dentro de un bloque de código específico (locales).
+
+## Que es la lógica de programación?
+
+La lógica de programación es una disciplina que se encarga de desarrollar algoritmos y soluciones a problemas utilizando un lenguaje de programación. Se trata de una habilidad fundamental para la programación, ya que permite al programador planificar y resolver problemas de una manera clara y efectiva, y es esencial para el desarrollo de software. La lógica de programación se basa en la resolución de problemas mediante la utilización de métodos y técnicas específicas para la solución de problemas, como la identificación de objetivos y la construcción de un plan para alcanzarlos.
+
+## ¿Qué es la programación?
+
+La programación es el proceso de diseñar, codificar, probar, depurar y mantener el software. Es la capacidad de crear programas de computadora que realizan tareas específicas y resuelven problemas. La programación es una habilidad valiosa en un mundo cada vez más digital y tecnológico, y es una herramienta esencial para la automatización y la solución de problemas complejos.
+
+## ¿Qué es Java y por qué usarlo?
+
+Java es un lenguaje de programación de alto nivel y de propósito general, diseñado para crear aplicaciones de software para una amplia gama de plataformas y dispositivos. Java es uno de los lenguajes de programación más populares en todo el mundo, debido a su facilidad de uso, flexibilidad y potencia. Además, Java es un lenguaje de programación de código abierto y multiplataforma, lo que significa que se puede ejecutar en cualquier sistema operativo que tenga una máquina virtual Java instalada.
+
+#### Conociendo la sintaxis básica de Java
+
+* La sintaxis básica de Java es el conjunto de reglas y convenciones que se utilizan para escribir programas en Java. Algunos de los conceptos básicos de la sintaxis de Java incluyen:
+
+* Comentarios: los comentarios son líneas de texto que se utilizan para documentar el código y hacerlo más legible. Se pueden incluir tanto comentarios de una línea (//) como comentarios de varias líneas (/* */).
+
+* lases: las clases son las unidades básicas de organización en Java y se utilizan para definir objetos. Una clase es una plantilla que se puede utilizar para crear objetos con características y comportamientos específicos.
+
+* Métodos: los métodos son bloques de código que se utilizan para realizar tareas específicas. Cada método debe tener un nombre único y puede tener parámetros y un valor de retorno.
+
+* Variables: las variables son contenedores que se utilizan para almacenar valores en un programa. Cada variable debe tener un nombre único y un tipo de datos que especifique el tipo de valor que puede almacenar.
+
+* Tipos de datos: Java tiene diferentes tipos de datos que se utilizan para representar diferentes tipos de valores, como números enteros, números decimales, caracteres, etc.
+
+* Sentencias: las sentencias son las unidades básicas de un programa que se ejecutan en orden. Cada sentencia debe terminar con un punto y coma (;).
+
+Estos son solo algunos de los conceptos básicos de la sintaxis de Java. Con el tiempo, los programadores pueden aprender más conceptos avanzados, como las estructuras de control y flujo, los arreglos, las colecciones, etc.
 
 
 
