@@ -7,6 +7,22 @@
 <!-- Su documentación aquí -->
 1035431495
 
+# Conceptos básicos de programación
+
+ Los conceptos básicos de programación son los siguientes:
+
+Algoritmo: es una secuencia lógica de pasos que se deben seguir para resolver un problema o realizar una tarea.
+
+
+
+
+
+
+
+
+
+
+
 
 # Actividad 1: Diagnóstico de aprendizajes previos 
 
@@ -152,6 +168,7 @@ manera programas eficientes. Además, evita el acceso no deseado a los datos o l
 de código propietario mediante la encapsulación y la abstracción
 
 #### La encapsulación: 
+
 contiene toda la información importante de un objeto dentro del
 mismo y solo expone la información seleccionada al mundo exterior.
  La abstracción: cuando el usuario interactúa solo con los atributos y métodos
@@ -167,6 +184,7 @@ los atributos y comportamientos básicos, se pueden crear clases secundarias, am
 funcionalidad de la clase principal y agregando atributos y comportamientos adicionales.
 
 #### El polimorfismo: 
+
 consiste en diseñar objetos para compartir comportamientos, lo
 que nos permite procesar objetos de diferentes maneras. Es la capacidad de presentar
 la misma interfaz para diferentes formas subyacentes o tipos de datos.
