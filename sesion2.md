@@ -179,29 +179,42 @@ Este tipo de dato se utiliza para almacenar cadenas de texto. Es un tipo de dato
 
 •	Arrays: Este tipo de dato se utiliza para almacenar una colección de valores del mismo tipo de dato. Se puede declarar un array utilizando la sintaxis siguiente:
 
-tipoDato[] nombreArray = new tipoDato[tamaño];
+**tipoDato[] nombreArray = new tipoDato[tamaño];**
 
 Donde tipoDato es el tipo de datos que se almacenará en el array, nombreArray es el nombre que se le dará al array y tamaño es el número de elementos que se almacenarán en el array. Por ejemplo, para declarar un array de tipo int llamado "edades" que contiene tres elementos, se utilizaría la siguiente sintaxis:
-int[] edades = new int[3];
+
+**nt[] edades = new int[3];**
 
 •	Objetos:(POO) Los objetos son instancias de una clase y se utilizan para almacenar información más compleja. Una clase es un tipo de dato personalizado que define las propiedades y métodos de un objeto. Para declarar un objeto, primero se debe crear una instancia de la clase utilizando la palabra clave "new", seguida del nombre de la clase y sus argumentos (si los tiene). Por ejemplo, si se tiene una clase llamada "Persona" que tiene propiedades como nombre, edad y altura, se puede crear una instancia de esa clase de la siguiente manera:
-Persona persona1 = new Persona("Juan", 25, 1.75);
+
+**Persona persona1 = new Persona("Juan", 25, 1.75);**
 
 Es importante tener en cuenta que los tipos de datos no primitivos son más complejos que los tipos de datos primitivos, y su uso puede requerir conocimientos avanzados de programación.
-Conversión de tipos en Java - Casting
+
+## Conversión de tipos en Java - Casting
+
 La conversión de tipos de datos en Java es un proceso mediante el cual se convierte un valor de un tipo de dato en otro. Java tiene dos tipos de conversión de datos: la conversión implícita y la conversión explícita.
+
 La conversión implícita se produce automáticamente cuando se asigna un valor de un tipo de dato a una variable de otro tipo de datos compatible. Por ejemplo, si se asigna un valor de tipo "int" a una variable de tipo "double", Java realiza la conversión automáticamente.
-int x = 5;
-double y = x; // Conversión implícita de int a double
+
+**int x = 5;**
+
+**double y = x; // Conversión implícita de int a double**
 
 La conversión explícita, también conocida como "casting", se utiliza cuando se desea convertir un valor de un tipo de dato a otro tipo de datos que no es compatible de forma implícita. Para hacer una conversión explícita, se debe utilizar una sintaxis especial que indica al compilador que se desea convertir el valor a otro tipo de datos.
-double x = 3.14;
-int y = (int) x; // Conversión explícita de double a int
+
+**double x = 3.14;**
+
+int y = (int) x; // Conversión explícita de double a int*
 
 En este ejemplo, se utiliza la sintaxis "(int)" para indicar que se desea convertir el valor "x" de tipo "double" a un valor de tipo "int". Es importante tener en cuenta que la conversión explícita puede provocar la pérdida de información si se intenta convertir un valor a un tipo de datos con menos precisión.
+
 Además de las conversiones implícitas y explícitas, Java también proporciona métodos para convertir valores entre diferentes tipos de datos, como los métodos "valueOf()" y "parseXxx()" de la clase "String". Estos métodos se utilizan para convertir valores de tipo "String" a otros tipos de datos, como "int" o "double".
-Método parseXxx()
+
+## Método parseXxx()
+
 En Java, los métodos parseXxx() se utilizan para convertir una representación de cadena (String) en un valor de tipo primitivo o un objeto de clase envolvente. Aquí tienes algunos ejemplos de métodos parseXxx() para diferentes tipos de datos:
+
 •	parseInt() - Convierte una cadena en un valor entero (int):
 String numberStr = "123";
 int number = Integer.parseInt(numberStr);
@@ -249,10 +262,14 @@ boolean boolValue = true;
 Boolean boolObj = Boolean.valueOf(boolValue);
 System.out.println(boolObj); // Salida: true
 
-Imprimir datos por consola
+## Imprimir datos por consola
+
 Para imprimir datos por consola en Java, se utiliza la clase System y su método out.println(). Aquí tienes una explicación de cómo funciona:
+
 •	La clase System: Es una clase integrada en Java que proporciona acceso a varios recursos y funcionalidades del sistema. Para imprimir datos por consola, utilizamos el atributo out de la clase System, que es una instancia de la clase PrintStream.
+
 •	El método println(): Es un método de la clase PrintStream que se utiliza para imprimir una línea de texto en la consola. Toma como argumento el valor que deseas imprimir y lo muestra en la salida estándar.
+
 A continuación, se muestra un ejemplo básico de cómo imprimir datos por consola en Java:
 public class ImprimirDatos {
     public static void main(String[] args) {
@@ -265,9 +282,12 @@ public class ImprimirDatos {
 }
 
 En este ejemplo, se utilizan dos llamadas al método println() para imprimir información en la consola. La primera línea imprime el texto "Mi nombre es " seguido del valor de la variable nombre. La segunda línea imprime el texto "Tengo ", seguido del valor de la variable edad, seguido del texto " años".
-Capturar datos por consola
+
+## Capturar datos por consola
 Para capturar datos por consola en Java, se utiliza la clase Scanner. Aquí tienes una explicación de cómo funciona:
+
 •	La clase Scanner: Es una clase integrada en Java que se utiliza para leer la entrada del usuario desde la consola. Proporciona métodos para leer diferentes tipos de datos, como enteros, números de punto flotante, cadenas, etc.
+
 •	Crear un objeto Scanner: Para capturar datos por consola, primero debes crear un objeto Scanner y asociarlo con la entrada estándar (System.in). Esto se hace de la siguiente manera:
 import java.util.Scanner;
 
@@ -287,9 +307,12 @@ public class CapturarDatos {
     }
 }
 
-Concatenar cadenas de texto
+## Concatenar cadenas de texto
+
 En Java, puedes concatenar cadenas de texto utilizando el operador de suma (+) o el método concat(). Aquí tienes ejemplos de ambos enfoques:
+
 •	Operador de suma (+):
+
 String cadena1 = "Hola";
 String cadena2 = "mundo";
 
@@ -297,6 +320,7 @@ String resultado = cadena1 + " " + cadena2;
 System.out.println(resultado);
 
 En este ejemplo, se utilizan el operador de suma (+) y espacios en blanco para concatenar las cadenas cadena1 y cadena2. El resultado se asigna a la variable resultado y se imprime en la consola. La salida será: "Hola mundo".
+
 •	Método concat():
 String cadena1 = "Hola";
 String cadena2 = "mundo";
@@ -305,17 +329,26 @@ String resultado = cadena1.concat(" ").concat(cadena2);
 System.out.println(resultado);
 
 En este ejemplo, se utiliza el método concat() para concatenar las cadenas cadena1 y cadena2. El método concat() combina la cadena actual con la cadena especificada como argumento y devuelve una nueva cadena resultante. El resultado se asigna a la variable resultado y se imprime en la consola. La salida será: "Hola mundo".
+
 Ambos enfoques producen el mismo resultado de concatenación. Puedes elegir el que te resulte más conveniente en tu código.
+
 Declaración de constantes
 En Java se utilizan las constantes para declarar valores fijos que no cambian durante la ejecución de un programa.
+
 Algunas características de las constantes en Java:
+
 •	Se declaran con la palabra reservada final. Esto hace que su valor no pueda ser modificado después.
+
 •	Por convención los nombres de las constantes se escriben en MAYÚSCULAS y separando palabras con guion bajo "_" . Por ejemplo:
+
 final double PI = 3.1416;
 
 final int DIAS_SEMANA = 7;
 
 •	El tipo de dato de la constante debe ser el adecuado para el valor que almacena. Por ejemplo, 3.1416 es double y 7 es int.
+
 •	Las constantes pueden ser locales a un método o declaradas a nivel de clase (estáticas) para ser accesibles por todos los métodos.
+
 •	Se puede utilizar cualquier tipo de dato para una constante: numéricos, cadena de texto, booleanos, etc.
+
 •	Las constantes hacen el código más legible y mantenible al evitar valores literales.
