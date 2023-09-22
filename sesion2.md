@@ -165,6 +165,9 @@ Es importante tener en cuenta que los nombres de las variables deben seguir las 
 
 [3schools](https://www.w3schools.com/java/java_data_types.asp)
  
+![Byte](image.png)
+
+
 ## Tipos de datos no primitivos.
 
 Además de los tipos de datos primitivos en Java, existen también tipos de datos no primitivos que se utilizan para almacenar información más compleja. Algunos ejemplos de tipos de datos no primitivos son:
@@ -175,6 +178,7 @@ Este tipo de dato se utiliza para almacenar cadenas de texto. Es un tipo de dato
 **String nombre = "Juan";**
 
 •	Arrays: Este tipo de dato se utiliza para almacenar una colección de valores del mismo tipo de dato. Se puede declarar un array utilizando la sintaxis siguiente:
+
 tipoDato[] nombreArray = new tipoDato[tamaño];
 
 Donde tipoDato es el tipo de datos que se almacenará en el array, nombreArray es el nombre que se le dará al array y tamaño es el número de elementos que se almacenarán en el array. Por ejemplo, para declarar un array de tipo int llamado "edades" que contiene tres elementos, se utilizaría la siguiente sintaxis:
