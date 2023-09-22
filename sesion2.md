@@ -40,3 +40,19 @@ Además, NetBeans cuenta con una comunidad activa de desarrolladores que contrib
 Ejemplo de la estructura de un programa en Java con comentarios documentados para cada sección:
 
 ![Imagen](image.png)
+
+**En este ejemplo, se sigue la estructura básica de un programa en Java con comentarios documentados que explican cada sección:**
+
+* package com.example.miproyecto;: Se declara el paquete al que pertenece el programa. En este caso, el paquete es "com.example.miproyecto".
+
+* import java.util.Scanner;: Se importa el paquete java.util y la clase Scanner para poder utilizarla en el programa. El Scanner se utiliza para leer la entrada del usuario.
+
+* public class MiPrograma {: Se declara la clase principal del programa llamada MiPrograma. La palabra clave public indica que la clase es accesible desde cualquier otro lugar.
+
+* public static void main(String[] args) {: Se define el método principal main, que es el punto de entrada del programa. Recibe un array de cadenas args como argumento, que puede ser utilizado para pasar argumentos desde la línea de comandos.
+
+* int edad = 25;: Se declara una variable edad de tipo entero y se le asigna el valor 25.
+
+* String nombre = "Juan";: Se declara una variable nombre de tipo cadena y se le asigna el valor "Juan".
+
+* System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");: Se utiliza System.out.println() para imprimir un mensaje de saludo en la consola. La cadena se forma concatenando las variables nombre y edad utilizando el operador de suma (+).
