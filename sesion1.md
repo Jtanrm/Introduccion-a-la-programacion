@@ -43,7 +43,7 @@ La programación es el proceso de diseñar, codificar, probar, depurar y mantene
 
 Java es un lenguaje de programación de alto nivel y de propósito general, diseñado para crear aplicaciones de software para una amplia gama de plataformas y dispositivos. Java es uno de los lenguajes de programación más populares en todo el mundo, debido a su facilidad de uso, flexibilidad y potencia. Además, Java es un lenguaje de programación de código abierto y multiplataforma, lo que significa que se puede ejecutar en cualquier sistema operativo que tenga una máquina virtual Java instalada.
 
-#### Conociendo la sintaxis básica de Java
+## Conociendo la sintaxis básica de Java
 
 * La sintaxis básica de Java es el conjunto de reglas y convenciones que se utilizan para escribir programas en Java. Algunos de los conceptos básicos de la sintaxis de Java incluyen:
 
