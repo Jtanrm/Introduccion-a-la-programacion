@@ -118,7 +118,7 @@ Ejemplo: miVariable, calcularSuma, nombreCompleto.
 
 •	No se utilizan espacios ni guiones.
 
-**Ejemplo: MiClase, CalcularPromedio, MetodoPrincipal.**
+Ejemplo: MiClase, CalcularPromedio, MetodoPrincipal.
 
 3.	Snake_case
 
@@ -131,11 +131,11 @@ Este estilo es comúnmente utilizado en lenguajes como Python.
 
 •	En Kebab-case, las palabras se escriben en minúscula y se separan mediante guiones medios.
 
-**Ejemplo: mi-variable, calcular-suma, nombre-completo.**
+Ejemplo: mi-variable, calcular-suma, nombre-completo.
 
 Este estilo es menos común en la convención de codificación, pero se utiliza en algunos lenguajes y sistemas.
 
-Tipos de datos primitivos.
+## Tipos de datos primitivos.
 
 En Java, existen cinco tipos de datos primitivos que se utilizan comúnmente en la programación. Estos tipos de datos son int, float, double, boolean y char, y se utilizan para almacenar diferentes tipos de información en una variable.
 
@@ -145,23 +145,28 @@ Por ejemplo, se puede declarar una variable de tipo int llamada "edad" para alma
 
 **int edad = 25;**
 
-•	float: Este tipo de dato se utiliza para almacenar números decimales con un rango menor que el tipo de datos double. El tamaño de este tipo de dato es de 4 bytes. Por ejemplo, se puede declarar una variable de tipo float llamada "altura" para almacenar la altura de una persona:
+  float: Este tipo de dato se utiliza para almacenar números decimales con un rango menor que el tipo de datos double. El tamaño de este tipo de dato es de 4 bytes. Por ejemplo, se puede declarar una variable de tipo float llamada "altura" para almacenar la altura de una persona:
 
-float altura = 1.75f;
+  **float altura = 1.75f;**
 
 •	double: Este tipo de dato se utiliza para almacenar números decimales con una precisión mayor que el tipo de datos float. El tamaño de este tipo de dato es de 8 bytes. Por ejemplo, se puede declarar una variable de tipo double llamada "peso" para almacenar el peso de una persona:
-double peso = 80.5;
+
+**double peso = 80.5;**
 
 •	boolean: Este tipo de dato se utiliza para almacenar valores verdadero o falso (true o false). Por ejemplo, se puede declarar una variable de tipo boolean llamada "esMayorDeEdad" para almacenar si una persona es mayor de edad o no:
-boolean esMayorDeEdad = true;
+
+**boolean esMayorDeEdad = true;**
 
 •	char: Este tipo de dato se utiliza para almacenar caracteres individuales, como letras, números y símbolos. El tamaño de este tipo de dato es de 2 bytes. Por ejemplo, se puede declarar una variable de tipo char llamada "inicial" para almacenar la inicial del nombre de una persona:
-char inicial = 'J';
+
+**char inicial = 'J';**
 
 Es importante tener en cuenta que los nombres de las variables deben seguir las reglas de identificación de Java y ser descriptivos del valor que se va a almacenar en ellas. Además, es importante seleccionar el tipo de dato adecuado para cada variable para evitar errores en el programa.
-https://www.w3schools.com/java/java_data_types.asp
+
+[3schools](https://www.w3schools.com/java/java_data_types.asp)
  
-Tipos de datos no primitivos.
+## Tipos de datos no primitivos.
+
 Además de los tipos de datos primitivos en Java, existen también tipos de datos no primitivos que se utilizan para almacenar información más compleja. Algunos ejemplos de tipos de datos no primitivos son:
 •	String: Este tipo de dato se utiliza para almacenar cadenas de texto. Es un tipo de datos que no es primitivo, pero se utiliza con mucha frecuencia en la programación. Se declara utilizando la palabra clave "String" seguida del nombre de la variable y su valor entre comillas dobles. Por ejemplo:
 String nombre = "Juan";
