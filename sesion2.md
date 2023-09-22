@@ -15,7 +15,7 @@ Java JDK (Java Development Kit) es un conjunto de herramientas de desarrollo de 
 
 El JDK es esencial para cualquier desarrollador que quiera crear aplicaciones Java, ya que proporciona las herramientas necesarias para compilar el código fuente, crear archivos ejecutables y depurar el código en caso de errores. Además, el JDK se actualiza regularmente para incluir nuevas características y mejoras de rendimiento. 
 
- [Java](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)  
+ [Java JDK ](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)  
 
 ## IntelliJ IDEA Community Edition
 
@@ -23,7 +23,7 @@ IntelliJ IDEA Community Edition es un entorno de desarrollo integrado (IDE) grat
 
 La versión Community Edition de IntelliJ IDEA es gratuita y de código abierto, lo que significa que cualquier desarrollador puede descargar y utilizar la herramienta de forma gratuita. Además, cuenta con una gran comunidad de desarrolladores que contribuyen con complementos y soluciones para problemas comunes. La versión Community Edition es adecuada para proyectos pequeños y medianos, mientras que la versión Ultimate, de pago, ofrece características avanzadas para proyectos más grandes y complejos.
 
-[intellij](https://www.jetbrains.com/es-es/idea/download/?section=windows#section=windows)
+[IntelliJ IDEA Community Edition](https://www.jetbrains.com/es-es/idea/download/?section=windows#section=windows)
 
 ## NetBeans
 
