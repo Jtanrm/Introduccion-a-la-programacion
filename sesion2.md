@@ -168,8 +168,11 @@ Es importante tener en cuenta que los nombres de las variables deben seguir las 
 ## Tipos de datos no primitivos.
 
 Además de los tipos de datos primitivos en Java, existen también tipos de datos no primitivos que se utilizan para almacenar información más compleja. Algunos ejemplos de tipos de datos no primitivos son:
-•	String: Este tipo de dato se utiliza para almacenar cadenas de texto. Es un tipo de datos que no es primitivo, pero se utiliza con mucha frecuencia en la programación. Se declara utilizando la palabra clave "String" seguida del nombre de la variable y su valor entre comillas dobles. Por ejemplo:
-String nombre = "Juan";
+
+**String:** 
+Este tipo de dato se utiliza para almacenar cadenas de texto. Es un tipo de datos que no es primitivo, pero se utiliza con mucha frecuencia en la programación. Se declara utilizando la palabra clave "String" seguida del nombre de la variable y su valor entre comillas dobles. Por ejemplo:
+
+**String nombre = "Juan";**
 
 •	Arrays: Este tipo de dato se utiliza para almacenar una colección de valores del mismo tipo de dato. Se puede declarar un array utilizando la sintaxis siguiente:
 tipoDato[] nombreArray = new tipoDato[tamaño];
