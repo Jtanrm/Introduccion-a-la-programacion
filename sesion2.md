@@ -15,7 +15,7 @@ Java JDK (Java Development Kit) es un conjunto de herramientas de desarrollo de 
 
 El JDK es esencial para cualquier desarrollador que quiera crear aplicaciones Java, ya que proporciona las herramientas necesarias para compilar el código fuente, crear archivos ejecutables y depurar el código en caso de errores. Además, el JDK se actualiza regularmente para incluir nuevas características y mejoras de rendimiento. 
 
-   [](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)  
+ [](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)  
 
 ## IntelliJ IDEA Community Edition
 
