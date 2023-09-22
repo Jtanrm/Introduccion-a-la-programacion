@@ -39,4 +39,4 @@ Además, NetBeans cuenta con una comunidad activa de desarrolladores que contrib
 
 Ejemplo de la estructura de un programa en Java con comentarios documentados para cada sección:
 
-![Imagen](![Imagen](image.png))
+![Imagen](image.png)
