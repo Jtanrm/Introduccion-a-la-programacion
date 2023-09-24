@@ -33,7 +33,7 @@ números enteros y luego imprima la suma y multiplicación de esos números.
 
  ![Suma y multiplicacion](image-1.png)
 
-2. Resta y división: Escribe un programa que tome dos números enteros
+2 Resta y división: Escribe un programa que tome dos números enteros
 ingresados por el usuario y calcule la resta y división de esos números.
 
 ![Resta y división:](image-2.png)
@@ -45,15 +45,34 @@ resultado entre el tercer número.
 
 ![Operaciones combinadas](image-3.png)
  
-4. Operaciones con decimales: Escribe un programa que solicite al usuario dos
+4 Operaciones con decimales: Escribe un programa que solicite al usuario dos
 números decimales y realice las siguientes operaciones: suma, resta,
 multiplicación y división.
 
+![Operaciones con decimales](image-4.png)
 
+5 Incremento y decremento: Escribe un programa que declare una variable
+entera y la inicializa con un valor. Luego, incrementa su valor en 1 y muestra el
+resultado. Después, decrementa su valor en 1 y muestra el resultado
+nuevamente. 
 
+![Incremento y decremento](image-5.png)
 
+6 Operador de asignación compuesta: Escribe un programa que declare una
+variable entera y la inicializa con un valor. Utiliza el operador de asignación
+compuesta para sumar 5 a la variable y luego mostrar su valor.
 
+![Operador de asignación compuesta](image-6.png)
 
+7 Operadores lógicos: Escribe un programa que tome dos valores booleanos
+ingresados por el usuario y muestre el resultado de las operaciones lógicas
+AND, OR y NOT entre esos valores.
 
+![Operadores lógicos]()
 
+8 Operador ternario: Escribe un programa que tome un número entero
+ingresado por el usuario y utilice el operador ternario para determinar si el
+número es positivo o negativo. Luego, muestra el resultado en la salida.
+
+![Operaciones combinadas]()
 
