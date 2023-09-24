@@ -26,7 +26,11 @@
    
 ## DESARROLLO
 
+Actividad: Ejercicios de operaciones básicas en Java.
 
+1. Suma y multiplicación: Escribe un programa que solicite al usuario dos
+números enteros y luego imprima la suma y multiplicación de esos números.
+ ![Suma y multiplicacion](![Alt text](image-1.png))
 
 
 
