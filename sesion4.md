@@ -202,7 +202,7 @@ String texto = (numero % 2 == 0) ? "El número es par" : "El número es impar";
 
 ## Otros ejemplos
 
-1. Comprobación del número par o impar:
+1 Comprobación del número par o impar:
 int numero = 7;
 
 if (numero % 2 == 0) {
@@ -211,7 +211,7 @@ if (numero % 2 == 0) {
     System.out.println("El número es impar.");
 }
 
-2. Evaluación de la calificación de un estudiante:
+2 Evaluación de la calificación de un estudiante:
 int calificacion = 85;
 
 if (calificacion >= 90) {
@@ -224,7 +224,7 @@ if (calificacion >= 90) {
     System.out.println("Reprobado");
 }
 
-3. Verificación de la elegibilidad para votar:
+3 Verificación de la elegibilidad para votar:
 int edad = 17;
 
 if (edad >= 18) {
@@ -233,7 +233,7 @@ if (edad >= 18) {
     System.out.println("No eres elegible para votar.");
 }
 
-4. Determinar si un número es positivo, negativo o cero:
+4 Determinar si un número es positivo, negativo o cero:
 int numero = -3;
 
 if (numero > 0) {
@@ -244,7 +244,7 @@ if (numero > 0) {
     System.out.println("El número es cero.");
 }
 
-5. Validación de una contraseña:
+5 Validación de una contraseña:
 String contraseña = "secreta123";
 
 if (contraseña.equals("secreta123")) {
@@ -255,7 +255,7 @@ if (contraseña.equals("secreta123")) {
 
 ## Ejemplos switch:
 
-1. Escribe un programa que le pida al usuario que ingrese un día de la semana. El programa debe imprimir el número del día de la semana.
+1 Escribe un programa que le pida al usuario que ingrese un día de la semana. El programa debe imprimir el número del día de la semana.
 import java.util.Scanner;
 
 public class DiaSemana {
@@ -294,7 +294,7 @@ public class DiaSemana {
   }
 }
 
-2. Escribe un programa que le pida al usuario que ingrese una calificación de 1 a 10. El programa debe imprimir la calificación en letras.
+2 Escribe un programa que le pida al usuario que ingrese una calificación de 1 a 10. El programa debe imprimir la calificación en letras.
 import java.util.Scanner;
 
 public class Calificacion {
@@ -342,7 +342,7 @@ public class Calificacion {
   }
 }
 
-3. Escribe un programa que le pida al usuario que ingrese un número entero. El programa debe imprimir la estación del año correspondiente al número.
+3 Escribe un programa que le pida al usuario que ingrese un número entero. El programa debe imprimir la estación del año correspondiente al número.
 import java.util.Scanner;
 
 public class Estacion {
