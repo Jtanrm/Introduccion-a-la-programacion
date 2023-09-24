@@ -5,29 +5,31 @@
 
 
 <!-- Su documentación aquí -->
-# Estructuras de control en Java
+## Estructuras de control en Java
 
 Las estructuras de control en Java son construcciones del lenguaje que permiten controlar el flujo de ejecución de un programa. Los principales tipos de estructuras de control en Java son:
 
-Estructuras de selección: permiten elegir entre varias opciones. Incluyen la sentencia if, la sentencia switch.
+* Estructuras de selección: permiten elegir entre varias opciones. Incluyen la sentencia if, la sentencia switch.
 
-Estructuras repetitivas: permiten repetir un bloque de código mientras se cumpla una condición. Incluyen los bucles for, while, do-- while.
+* Estructuras repetitivas: permiten repetir un bloque de código mientras se cumpla una condición. Incluyen los bucles for, while, do-- while.
 
-Estructuras de salto: permiten cambiar el flujo de ejecución, saltando parte del código. Incluyen las sentencias break, continue, return.
+* Estructuras de salto: permiten cambiar el flujo de ejecución, saltando parte del código. Incluyen las sentencias break, continue, return.
 
-Estructuras condicionales:
+## Estructuras condicionales:
+
 Las estructuras condicionales en Java permiten tomar decisiones y ejecutar ciertas partes de código dependiendo si se cumple o no una determinada condición.
 
 Las principales estructuras condicionales son:
 
-1. if: Ejecuta un bloque de código si se cumple la condición.
+1 if: Ejecuta un bloque de código si se cumple la condición.
+
 Sintaxis:
 
 if (condición) {
   // código a ejecutar 
 }
 
-2. if - else: Ejecuta un bloque si se cumple la condición, y otro bloque distinto si no se cumple.
+2 if - else: Ejecuta un bloque si se cumple la condición, y otro bloque distinto si no se cumple.
 Sintaxis:
 
 if (condición) {
@@ -36,7 +38,7 @@ if (condición) {
   // código si no se cumple
 }
 
-3. if - else if - else: Permite evaluar múltiples condiciones. Se ejecuta el primer bloque donde se cumpla la condición.
+3 if - else if - else: Permite evaluar múltiples condiciones. Se ejecuta el primer bloque donde se cumpla la condición.
 Sintaxis:
 
 if (condición 1) {
@@ -47,14 +49,14 @@ if (condición 1) {
   // código si no se cumple ninguna
 }
 
-4. Operador ternario
+4 Operador ternario
 El operador ternario en Java es una expresión que se utiliza para evaluar una condición y devolver uno de dos valores, dependiendo del resultado de la evaluación. La sintaxis del operador ternario es:
 
 Sintaxis:
 
 variable = (condicion) ? valor_si_verdadero : valor_si_falso;
 
-5. switch: Evalúa una variable o expresión y ejecuta el código del case que coincida con el valor.
+5 switch: Evalúa una variable o expresión y ejecuta el código del case que coincida con el valor.
 Sintaxis:
 
 switch(expresión) {
