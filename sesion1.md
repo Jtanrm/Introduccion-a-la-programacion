@@ -5,7 +5,6 @@
 
 
 <!-- Su documentación aquí -->
-1035431495
 
 # Conceptos básicos de programación
 

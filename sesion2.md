@@ -5,7 +5,6 @@
 
 
 <!-- Su documentación aquí -->
-1035431495
 
 # Instalación de Java y configuración del entorno de desarrollo
 
