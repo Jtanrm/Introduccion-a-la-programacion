@@ -50,6 +50,7 @@ if (condición 1) {
 }
 
 4 Operador ternario
+
 El operador ternario en Java es una expresión que se utiliza para evaluar una condición y devolver uno de dos valores, dependiendo del resultado de la evaluación. La sintaxis del operador ternario es:
 
 Sintaxis:
@@ -72,10 +73,12 @@ switch(expresión) {
 
 Estas estructuras permiten controlar el flujo del programa ejecutando código de manera condicional. Son muy útiles para realizar selecciones y tomar decisiones en la lógica de un programa.
 
-Ejemplos if:
+## Ejemplos if:
+
 Estos ejemplos muestran diferentes formas de utilizar estructuras condicionales en Java para tomar decisiones basadas en ciertas condiciones.
 
-1. Comprobando si una variable es mayor que otra:
+1- Comprobando si una variable es mayor que otra:
+
 int x = 10;
 int y = 5;
 
@@ -83,22 +86,27 @@ if (x > y) {
   System.out.println("x es mayor que y");
 }
 
-2. Comprobando si una variable es diferente de un valor específico:
+2- Comprobando si una variable es diferente de un valor específico:
+ 
 int edad = 18;
 
 if (edad != 18) {
   System.out.println("La edad no es 18");
 }
 
-3. Comprobando si una variable está dentro de un rango de valores:
+3- Comprobando si una variable está dentro de un rango de valores:
+
+
 int nota = 10;
 
 if (nota >= 9 && nota <= 10) {
   System.out.println("La nota es excelente");
 }
 
-Ejemplos if else:
-1. Comprobando si una variable es mayor que otra y, si no, imprimiendo un mensaje diferente:
+## Ejemplos if else:
+
+1- Comprobando si una variable es mayor que otra y, si no, imprimiendo un mensaje diferente:
+
 int x = 10;
 int y = 5;
 
@@ -108,7 +116,8 @@ if (x > y) {
   System.out.println("x es menor o igual que y");
 }
 
-2. Comprobando si una variable es igual a un valor específico y, si no, imprimiendo un mensaje diferente:
+2- Comprobando si una variable es igual a un valor específico y, si no, imprimiendo un mensaje diferente:
+
 String nombre = "Juan";
 
 if (nombre.equals("Juan")) {
@@ -117,7 +126,8 @@ if (nombre.equals("Juan")) {
   System.out.println("El nombre no es Juan");
 }
 
-3. Comprobando si una variable está dentro de un rango de valores y, si no, imprimiendo un mensaje diferente:
+3- Comprobando si una variable está dentro de un rango de valores y, si no, imprimiendo un mensaje diferente:
+
 int nota = 10;
 
 if (nota >= 9 && nota <= 10) {
@@ -126,8 +136,10 @@ if (nota >= 9 && nota <= 10) {
   System.out.println("La nota no es excelente");
 }
 
-Ejemplos else if:
-1. Comprobando si una variable es mayor que otra, si no, si es igual y, si no, imprimiendo un mensaje diferente:
+## Ejemplos else if:
+
+1 Comprobando si una variable es mayor que otra, si no, si es igual y, si no, imprimiendo un mensaje diferente:
+   
 int x = 10;
 int y = 5;
 
@@ -139,7 +151,8 @@ if (x > y) {
   System.out.println("x es menor que y");
 }
 
-2. Comprobando si una variable está dentro de un rango de valores, si no, si es mayor o si es menor y, si no, imprimiendo un mensaje diferente:
+2 Comprobando si una variable está dentro de un rango de valores, si no, si es mayor o si es menor y, si no, imprimiendo un mensaje diferente:
+
 int nota = 10;
 
 if (nota >= 9 && nota <= 10) {
@@ -152,7 +165,8 @@ if (nota >= 9 && nota <= 10) {
   System.out.println("La nota es buena");
 }
 
-3. Comprobando si una variable está vacía o no, si no, si tiene una longitud específica y, si no, imprimiendo un mensaje diferente:
+3 Comprobando si una variable está vacía o no, si no, si tiene una longitud específica y, si no, imprimiendo un mensaje diferente:
+
 String cadena = "";
 
 if (cadena.isEmpty()) {
@@ -163,8 +177,9 @@ if (cadena.isEmpty()) {
   System.out.println("La cadena no está vacía");
 }
 
-Ejemplos operador ternario:
-1. Devuelve el valor máximo de dos números
+## Ejemplos operador ternario:
+
+1 Devuelve el valor máximo de dos números
 int max = (a > b) ? a : b;
 
 // Devuelve el texto "El número es positivo" si el número es mayor que 0,
@@ -172,7 +187,7 @@ int max = (a > b) ? a : b;
 String texto = (numero > 0) ? "El número es positivo" : "El número es negativo";
 
 
-2. Devuelve el valor máximo de tres números
+2 Devuelve el valor máximo de tres números
 int max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
 
 // Devuelve el texto "El número es positivo" si el número es mayor que 0,
@@ -181,11 +196,12 @@ int max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
 String texto = (numero > 0) ? "El número es positivo" : (numero == 0 ? "El número es cero" : "El número es negativo");
 
 
-3. Devuelve el texto "El número es par" si el número es par, y el texto "El número es impar" si el número es impar.
+3 Devuelve el texto "El número es par" si el número es par, y el texto "El número es impar" si el número es impar.
 String texto = (numero % 2 == 0) ? "El número es par" : "El número es impar";
 
 
-Otros ejemplos
+## Otros ejemplos
+
 1. Comprobación del número par o impar:
 int numero = 7;
 
@@ -237,7 +253,8 @@ if (contraseña.equals("secreta123")) {
     System.out.println("Contraseña incorrecta. Acceso denegado.");
 }
 
-Ejemplos switch:
+## Ejemplos switch:
+
 1. Escribe un programa que le pida al usuario que ingrese un día de la semana. El programa debe imprimir el número del día de la semana.
 import java.util.Scanner;
 
