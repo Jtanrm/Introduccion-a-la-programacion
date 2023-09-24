@@ -387,6 +387,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 1- 
 
  Programa para calcular la hipotenusa de un triángulo rectángulo:
+ 
  import java.util.Scanner;
 
  public class HipotenusaTriangulo {
@@ -410,6 +411,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 2- 
 
   Programa para determinar si un número es par o impar:
+
   import java.util.Scanner;
 
   public class ParImpar {
@@ -430,6 +432,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
   }
 
 3-
+
  Programa para calcular el tercer ángulo de un triángulo:
 
  import java.util.Scanner;
@@ -459,6 +462,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 4- 
 
  Programa para calcular el promedio de tres números:
+
  import java.util.Scanner;
 
  public class PromedioTresNumeros {
@@ -484,6 +488,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 
 5- 
  Programa para calcular la longitud de una cadena de texto:
+
  import java.util.Scanner;
 
  public class LongitudCadena {
@@ -502,6 +507,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 
 6- 
  Programa para calcular el área de un triángulo:
+
  import java.util.Scanner;
 
  public class AreaTriangulo {
@@ -524,6 +530,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 7-
 
  Programa para calcular la raíz cuadrada de un número:
+
  import java.util.Scanner;
 
  public class RaizCuadrada {
@@ -544,6 +551,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 8-
 
  Programa para calcular el máximo común divisor (MCD) de dos números:
+
  import java.util.Scanner;
 
  publicclass MaximoComunDivisor {
@@ -576,6 +584,7 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 9-
 
  Programa para imprimir una cadena de texto en orden inverso:
+
  import java.util.Scanner;
 
  public class CadenaInversa {
@@ -598,8 +607,9 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 
 
 10-
- 
+
  Programa para calcular el área de un rectángulo:
+
  import java.util.Scanner;
 
  public class AreaRectangulo {
