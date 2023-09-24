@@ -31,14 +31,14 @@ Actividad: Ejercicios de operaciones básicas en Java.
 1. Suma y multiplicación: Escribe un programa que solicite al usuario dos
 números enteros y luego imprima la suma y multiplicación de esos números.
 
- ![Suma y multiplicacion](image-1.png))
+ ![Suma y multiplicacion](image-1.png)
 
 2. Resta y división: Escribe un programa que tome dos números enteros
 ingresados por el usuario y calcule la resta y división de esos números.
 
-![Resta y división:]((image-2.png))
+![Resta y división:](image-2.png)
 
-3. Operaciones combinadas: Escribe un programa que solicite al usuario tres
+3 Operaciones combinadas: Escribe un programa que solicite al usuario tres
 números enteros y realice las siguientes operaciones: suma de los tres
 números, multiplicación del primer número por el segundo y división del
 resultado entre el tercer número.
