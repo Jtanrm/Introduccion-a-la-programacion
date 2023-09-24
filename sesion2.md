@@ -384,10 +384,12 @@ Explorar las características y funcionalidades de cada entorno de desarrollo.
 
 **En esta actividad, pondremos en práctica los conceptos aprendidos de programación básica mediante la ejecución y prueba de diversos ejercicios. Utilizaremos el lenguaje de programación Java para implementar los programas y comprobaremos su funcionamiento ingresando diferentes valores de entrada.**
 
-1. Programa para calcular la hipotenusa de un triángulo rectángulo:
-import java.util.Scanner;
+1. 
 
-public class HipotenusaTriangulo {
+ Programa para calcular la hipotenusa de un triángulo rectángulo:
+ import java.util.Scanner;
+
+ public class HipotenusaTriangulo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -402,7 +404,7 @@ public class HipotenusaTriangulo {
 
         scanner.close();
     }
-}
+  }
 
 
 2. Programa para determinar si un número es par o impar:
