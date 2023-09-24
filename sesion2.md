@@ -104,7 +104,7 @@ En Java, hay convenciones y buenas prácticas para crear identificadores de vari
 
 ## Estilos de convención de codificación.
 
-1.	CamelCase (lowerCamelCase o mixedCase)
+1- CamelCase (lowerCamelCase o mixedCase)
 
 * En CamelCase, la primera letra de la primera palabra se escribe en minúscula y las primeras letras de las palabras subsiguientes se escriben en mayúscula.
 
@@ -112,7 +112,7 @@ En Java, hay convenciones y buenas prácticas para crear identificadores de vari
   
 **Ejemplo: miVariable, calcularSuma, nombreCompleto.**
 
-1.	PascalCase (UpperCamelCase o StudlyCase)
+2-	PascalCase (UpperCamelCase o StudlyCase)
 
 •	En PascalCase, la primera letra de cada palabra se escribe en mayúscula, incluida la primera palabra.
 
@@ -120,7 +120,7 @@ En Java, hay convenciones y buenas prácticas para crear identificadores de vari
 
 **Ejemplo: MiClase, CalcularPromedio, MetodoPrincipal.**
 
-3.	Snake_case
+3-	Snake_case
 
 •	En Snake_case, las palabras se escriben en minúscula y se separan mediante guiones bajos.
 
@@ -128,7 +128,7 @@ En Java, hay convenciones y buenas prácticas para crear identificadores de vari
 
 Este estilo es comúnmente utilizado en lenguajes como Python.
 
-4.	Kebab-case
+4-	Kebab-case
 
 •	En Kebab-case, las palabras se escriben en minúscula y se separan mediante guiones medios.
 
