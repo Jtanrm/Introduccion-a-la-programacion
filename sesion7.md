@@ -5,7 +5,8 @@
 
 
 <!-- Su documentación aquí -->
-Array
+# Array
+
 Un array en Java es una estructura de datos que permite almacenar una colección de elementos, todos del mismo tipo, en una única variable. Los arrays en Java son de tamaño fijo, lo que significa que una vez creados, no se pueden cambiar en tamaño.
 
 Los arrays en Java se declaran utilizando la siguiente sintaxis:
@@ -14,9 +15,13 @@ tipo[] nombreArray = new tipo[tamaño];
 Donde:
 
 tipo: es el tipo de los elementos que se almacenarán en el array.
+
 nombreArray: es el nombre de la variable que se utilizará para acceder al array.
+
 tamaño: es el número de elementos que se almacenarán en el array.
+
 Por ejemplo, el siguiente código crea un array de números enteros de tamaño 10:
+
 int[] numeros = new int[10];
 
 Para asignar valores a los elementos de un array, se puede utilizar la siguiente sintaxis:
@@ -26,8 +31,11 @@ nombreArray[índice] = valor;
 Donde:
 
 índice es el índice del elemento al que se quiere asignar el valor.
+
 valor es el valor que se quiere asignar al elemento.
+
 Por ejemplo, el siguiente código asigna los valores 1, 2, 3, 4, 5, 6, 7, 8, 9 y 10 a los elementos del array numeros:
+
 numeros[0] = 1;
 numeros[1] = 2;
 numeros[2] = 3;
@@ -46,15 +54,19 @@ valor = nombreArray[índice];
 Donde:
 
 valor: es la variable que se utilizará para almacenar el valor del elemento.
+
 índice: es el índice del elemento cuyo valor se quiere obtener.
+
 Por ejemplo, el siguiente código imprime el valor del elemento 5 del array numeros:
 
 int valor = numeros[5];
+
 System.out.println(valor);
 
 Además de la forma que se mencionó anteriormente, hay otra forma de inicializar un array en Java utilizando un inicializador de array. Un inicializador de array es una lista de valores separados por comas que se utiliza para inicializar los elementos de un array.
 
 La sintaxis de un inicializador de array es la siguiente:
+
 tipo[] nombreArray = {valor1, valor2, ..., valorN};
 
 Donde:
@@ -73,10 +85,12 @@ Almacenar una lista de números, cadenas, objetos, etc. Almacenar los nombres de
 
 Los arrays son una herramienta muy versátil que se puede utilizar en una gran variedad de escenarios.
 
-ArrayList
+## ArrayList
+
 En Java, la clase ArrayList se utiliza para almacenar una colección de objetos de tamaño variable. Es una implementación de la interfaz List, que proporciona una serie de métodos para manipular una lista de elementos.
 
-Creación de una ArrayList
+## Creación de una ArrayList
+
 Para crear una ArrayList, utilizamos el constructor new ArrayList(). Podemos especificar el tipo de elementos que se almacenarán en la lista, o dejar el tipo como genérico.
 
 Sintaxis:
@@ -86,13 +100,16 @@ ArrayList<String> cars = new ArrayList<>();
 Este código crea una ArrayList de cadenas vacía. También podemos crear una ArrayList con elementos preexistentes, pasando una matriz o una colección como argumento al constructor.
 
 String[] cars = {"Volvo", "BMW", "Mercedes"};
+
 ArrayList<String> carsList = new ArrayList<>(cars);
 
 Este código crea una ArrayList de cadenas con los elementos de la matriz cars.
 
 Adición de elementos
 
-Podemos agregar elementos a una ArrayList utilizando el método add(). Este método toma un elemento como argumento y lo agrega al final de la lista.
+Podemos agregar elementos a una ArrayList utilizando el método add(). 
+
+Este método toma un elemento como argumento y lo agrega al final de la lista.
 
 carsList.add("Audi");
 
@@ -169,7 +186,9 @@ Las ventajas de utilizar ArrayList incluyen:
 La capacidad de almacenar una colección de objetos de tamaño variable.
 La posibilidad de acceder a los elementos de la lista de forma aleatoria.
 La implementación de una serie de métodos para manipular una lista de elementos.
-Desventajas de ArrayList
+
+## Desventajas de ArrayList
+
 Las desventajas de utilizar ArrayList incluyen:
 
 El uso de más memoria que una matriz de tamaño fijo.
@@ -178,7 +197,9 @@ La posibilidad de ineficiencias en operaciones como la adición y la eliminació
 # Actividad: Ejecicios Array - ArrayList
 
 1 En parejas, probar, analizar y explicar el funcionamiento de los siguientes ejemplos de Array y ArrayList.
+
 Ejemplo Array
+
 import java.util.Arrays;
 
 public class EjercicioArray {
@@ -213,7 +234,7 @@ public class EjercicioArray {
 }
 
 
-Ejemplo Array list
+## Ejemplo Array list
 
 import java.util.ArrayList; 
 import java.util.Scanner;
@@ -271,7 +292,7 @@ public class AppNotas {
 
 2 Crear un ejemplo de Array y otro de ArrayList para visualizar sus diferencias.
 
-## DESARROLLO
+# DESARROLLO
 
 
 package com.mycompany.proyecto1;
