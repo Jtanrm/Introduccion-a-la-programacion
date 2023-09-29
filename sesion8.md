@@ -186,6 +186,44 @@ En este ejemplo, el método sumarArreglo recibe un parámetro de tipo int[] que 
 
 # DESARROLLO
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+package com.mycompany.sesion8;
+
+import java.util.*;
+
+/**
+ *
+ * @author JHONATAN
+ */
+public class Sesion8 {
+
+    public static double calcularMediana(int[] datos) {
+        // Primero, ordena el conjunto de datos
+        Arrays.sort(datos);
+
+        // Calcula la posición del valor medio
+        int n = datos.length;
+        int posicionMedia = n / 2;
+
+        // Si el conjunto de datos tiene un número impar de elementos, la mediana es el valor en la posición media
+        if (n % 2 != 0) {
+            return datos[posicionMedia];
+        } else {
+            // Si el conjunto de datos tiene un número par de elementos, la mediana es el promedio de los dos valores del medio
+            double valor1 = datos[posicionMedia - 1];
+            double valor2 = datos[posicionMedia];
+            return (valor1 + valor2) / 2.0;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] datos = {3, 7, 4, 2, 8};
+        double mediana = calcularMediana(datos);
+        System.out.println("La mediana es: " + mediana);
+    }
+}
 
 
 
