@@ -221,6 +221,11 @@ funcionalidad de la clase principal y agregando atributos y comportamientos adic
 
 #### El polimorfismo: 
 
+
 **consiste en diseñar objetos para compartir comportamientos, lo
-que nos permite procesar objetos de diferentes maneras. Es la capacidad de presentar
-la misma interfaz para diferentes formas subyacentes o tipos de datos.** 
+ que nos permite procesar objetos de diferentes maneras. Es la capacidad de presentar
+ la misma interfaz para diferentes formas subyacentes o tipos de datos***
+
+[Siguiente](./sesion2.md)
+
+

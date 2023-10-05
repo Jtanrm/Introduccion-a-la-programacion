@@ -76,4 +76,4 @@ número es positivo o negativo. Luego, muestra el resultado en la salida.
 
 ![Operador ternario](image-8.png)
 
-
+[Siguiente](./sesion4.md)
