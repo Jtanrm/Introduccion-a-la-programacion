@@ -202,7 +202,7 @@ Implementar los siguientes métodos:
 
 
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+*- Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 package com.mycompany.sesion8;
 
@@ -210,7 +210,7 @@ import java.util.*;
 
 /**
  *
- * @author JHONATAN
+ *@author JHONATAN
  */
 public class Sesion8 {
 

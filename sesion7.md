@@ -294,7 +294,7 @@ public class AppNotas {
 
 # DESARROLLO
 
-## primer ejercicio
+## Primer ejercicio
 
 package com.mycompany.proyecto1;
 import java.util.ArrayList; 
@@ -324,13 +324,15 @@ public class Proyecto1 {
 ## Segundo ejercicio 
 
 
-package com.mycompany.arraylist;
+{ package com.mycompany.arraylist;
 import java.util.ArrayList;
 /**
  *
  * @author JHONATAN
  */
-public class Arraylist {
+public class Arraylist { 
+
+}
 
     public static void main(String[] args) {
       
@@ -362,7 +364,7 @@ public class Arraylist {
     
     }
 
-## tercer ejercicio 
+## Tercer ejercicio 
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -372,7 +374,7 @@ package com.mycompany.proyecto1;
 
 /**
  *
- * @author JHONATAN
+ *-@author JHONATAN
  */
 public class Arrays {
     public static void main(String[] arg) {

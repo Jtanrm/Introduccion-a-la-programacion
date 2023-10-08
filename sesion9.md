@@ -8,7 +8,7 @@
 
 Resolver en parejas el ejercicio asignado por el docente
 
-Ejercicios de Lógica de Programación
+## Ejercicios de Lógica de Programación
 
  Calculadora de resistencias eléctricas
 Una resistencia eléctrica es un componente electrónico que se utiliza para limitar el flujo de corriente eléctrica en un circuito. Es decir, su función es oponerse al paso de la corriente eléctrica y disminuir su intensidad.
@@ -17,7 +17,7 @@ Las resistencias se componen generalmente de un material conductor, como el carb
 
 Las resistencias se utilizan en una gran variedad de circuitos electrónicos, tanto en circuitos analógicos como digitales. Algunas de las aplicaciones más comunes de las resistencias incluyen la limitación de corriente en circuitos de alimentación, el ajuste de niveles de voltaje y corriente en circuitos de amplificación, y la medición de corriente y voltaje en circuitos de control y monitoreo.
 
-Calculadora Código de colores - Online
+*Calculadora Código de colores - Online*
 
 [](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
 
@@ -33,16 +33,17 @@ Con los colores y la tolerancia seleccionados, el programa debe calcular el valo
 
 Para calcular el valor de la resistencia, se debe utilizar la fórmula: valor = ((valor1 10) + valor2) multiplicador, donde valor1 y valor2 son los valores correspondientes a los dos primeros colores elegidos por el usuario (según la tabla de colores), y multiplicador es el valor correspondiente al tercer color elegido por el usuario (también según la tabla de colores). Finalmente, se debe mostrar el valor de la resistencia en ohms y la tolerancia seleccionada.
 
- Calculadora de la mediana
+ ## Calculadora de la mediana
+
 La mediana es un valor estadístico que se utiliza para describir el centro de un conjunto de datos. Es el valor que se encuentra justo en el medio de un conjunto de datos ordenados de menor a mayor. Es decir, la mediana divide el conjunto de datos en dos partes iguales, donde la mitad de los valores están por encima de la mediana y la otra mitad están por debajo de ella.
 
-Mediana con números impares:
+## Mediana con números impares:
 
 Supongamos este grupo de números: {3, 7, 4, 2, 8}
 
 Ordenarlos de menor a mayor: {2, 3, 4, 7, 8} El número de elementos es impar (5 elementos), por lo que la mediana será el elemento central una vez ordenados. El elemento central es el número 4. Por lo tanto, la mediana de este grupo de números impares es 4.
 
-Mediana con números pares:
+## Mediana con números pares:
 
 Supongamos este otro grupo: {5, 12, 2, 11, 3, 9}
 
@@ -57,9 +58,9 @@ String e2_color2 = "";
 String e2_color3 = "";
 String e2_color4 = "";
 
-class resistorInfo {
+{class resistorInfo {
     public String value;
-    public String Tolerance;
+    public String Tolerance;{}
 }
 
 public HorizontalLayout algoritmo() {

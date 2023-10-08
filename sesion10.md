@@ -5,7 +5,10 @@
 
 ### Ejercicios de Lógica de Programación
 
-1 Crear un programa en Java para calcular el interés de un CDT
+**1** 
+
+**Crear un programa en Java para calcular el interés de un CDT**
+
 Un CDT (Certificado de Depósito a Término) es un producto financiero en el que un inversor deposita una cantidad de dinero en un banco por un plazo determinado y a cambio recibe una tasa de interés fija. Al final del plazo, el inversor recupera su inversión inicial más los intereses generados. Aquí hay un ejemplo de cómo crear un programa en Java para calcular el interés de un CDT:
 
 import java.util.Scanner;
@@ -46,8 +49,9 @@ public class Main {
 
 En este ejemplo, el programa solicita al usuario que ingrese el monto del depósito, la tasa de interés anual y el plazo en meses. Luego, el programa utiliza fórmulas matemáticas simples para calcular el interés mensual y el monto total al vencimiento. Finalmente, el programa muestra un resumen del CDT que incluye el monto del depósito, la tasa de interés anual, el plazo en meses, el interés mensual y el monto total al vencimiento. Este programa puede ser útil para las personas que desean invertir en un CDT y desean calcular los intereses que pueden generar. También puede ser utilizado por los profesionales financieros que deseen calcular los intereses de los CDTs de sus clientes.
 
-2 Calcular la desviación estándar
-La desviación estándar es una medida estadística que indica cuánto varían los valores de un conjunto de datos respecto a la media aritmética. En otras palabras, mide la dispersión de los datos alrededor de la media.
+**2**
+ **Calcular la desviación estándar
+La desviación estándar es una medida estadística que indica cuánto varían los valores de un conjunto de datos respecto a la media aritmética. En otras palabras, mide la dispersión de los datos alrededor de la media.**
 
 La desviación estándar se calcula tomando la raíz cuadrada de la varianza, donde la varianza es la suma de los cuadrados de las diferencias entre cada valor y la media aritmética, dividido entre el número de valores menos uno.
 
@@ -137,8 +141,10 @@ El resultado para el conjunto de datos {5, 10, 12, 15, 20} sería:
 Media aritmética = 12.0
 Desviación estándar = 7.236
 
-3 Cálculo del índice de masa corporal (IMC)
-El índice de masa corporal (IMC) es una medida que se utiliza para evaluar si una persona tiene un peso saludable en relación con su altura. Se calcula dividiendo el peso de una persona en kilogramos entre el cuadrado de su altura en metros (kg/m²).
+**3**
+
+ **Cálculo del índice de masa corporal (IMC)
+El índice de masa corporal (IMC) es una medida que se utiliza para evaluar si una persona tiene un peso saludable en relación con su altura. Se calcula dividiendo el peso de una persona en kilogramos entre el cuadrado de su altura en metros (kg/m²).**
 
 El IMC es una herramienta útil para determinar si una persona tiene un peso saludable, está por debajo de su peso ideal o tiene sobrepeso o obesidad. Aunque el IMC no mide directamente la cantidad de grasa corporal, se ha encontrado que existe una relación entre el IMC y el porcentaje de grasa corporal. Por lo tanto, el IMC se utiliza como un indicador general de la salud y el riesgo de ciertas enfermedades relacionadas con el peso, como la diabetes, la hipertensión y las enfermedades cardiovasculares.
 
@@ -171,8 +177,10 @@ public class IMC {
 
 En este programa, primero se solicita al usuario que ingrese su peso en kilogramos y su altura en metros. Luego se calcula el IMC dividiendo el peso entre la altura al cuadrado. Finalmente, se muestra el resultado en la consola con dos decimales utilizando el método printf de la clase System.out.
 
-4 Calcular la cantidad de materiales necesarios para construir una pared de ladrillos
-Cálculo de la cantidad de materiales para la construcción: Este ejercicio consiste en calcular la cantidad de materiales necesarios para construir una estructura. Para ello, se debe tener en cuenta las dimensiones de la estructura y la cantidad de materiales necesarios por unidad de área o de volumen. Algunos ejemplos de cálculos de materiales son el cálculo de la cantidad de ladrillos necesarios para construir una pared, o el cálculo de la cantidad de concreto necesario para una losa o columna.
+**4** 
+
+**Calcular la cantidad de materiales necesarios para construir una pared de ladrillos
+Cálculo de la cantidad de materiales para la construcción: Este ejercicio consiste en calcular la cantidad de materiales necesarios para construir una estructura. Para ello, se debe tener en cuenta las dimensiones de la estructura y la cantidad de materiales necesarios por unidad de área o de volumen. Algunos ejemplos de cálculos de materiales son el cálculo de la cantidad de ladrillos necesarios para construir una pared, o el cálculo de la cantidad de concreto necesario para una losa o columna.**
 
 Ejemplo en Java de cómo calcular la cantidad de materiales necesarios para construir una pared de ladrillos:
 
@@ -216,8 +224,10 @@ En este programa, además de solicitar las dimensiones de la pared, también se 
 
 Para calcular la cantidad de ladrillos necesarios, se divide el área de la pared entre el área de un ladrillo (considerando las dimensiones del ladrillo ingresadas) y el ancho de la pared dividido por el ancho del ladrillo. El resultado se redondea hacia arriba con la función Math.ceil. Finalmente, se muestra el resultado en la consola utilizando el método printf de la clase System.out.
 
-5 Calcular el movimiento rectilíneo uniforme
-El movimiento rectilíneo uniforme (MRU) es un tipo de movimiento en el cual un objeto se mueve en línea recta y a velocidad constante, es decir, su velocidad no cambia en el tiempo. En este tipo de movimiento, la trayectoria del objeto es una línea recta, por lo que su aceleración es cero.
+**5** 
+
+**Calcular el movimiento rectilíneo uniforme
+El movimiento rectilíneo uniforme (MRU) es un tipo de movimiento en el cual un objeto se mueve en línea recta y a velocidad constante, es decir, su velocidad no cambia en el tiempo. En este tipo de movimiento, la trayectoria del objeto es una línea recta, por lo que su aceleración es cero.**
 
 Un ejemplo común de MRU es un automóvil que se desplaza en una carretera recta y mantiene una velocidad constante durante todo el trayecto. Otro ejemplo es una pelota que cae verticalmente al suelo sin ser afectada por la resistencia del aire.
 
@@ -253,8 +263,8 @@ A continuación, se calcula la distancia recorrida utilizando la fórmula distan
 
 Finalmente, se muestra el resultado en la consola utilizando el método printf de la clase System.out.
 
-6 Calcular el movimiento parabólico de un proyectil
-El movimiento parabólico de un proyectil es un tipo de movimiento en el cual un objeto es lanzado con una velocidad inicial y se mueve siguiendo una trayectoria curva en forma de parábola debido a la influencia de la gravedad. Este tipo de movimiento se caracteriza por tener tanto una componente horizontal como una vertical.
+**6 Calcular el movimiento parabólico de un proyectil
+El movimiento parabólico de un proyectil es un tipo de movimiento en el cual un objeto es lanzado con una velocidad inicial y se mueve siguiendo una trayectoria curva en forma de parábola debido a la influencia de la gravedad. Este tipo de movimiento se caracteriza por tener tanto una componente horizontal como una vertical.**
 
 Durante el movimiento parabólico de un proyectil, la fuerza de la gravedad actúa sobre el objeto, lo que hace que la trayectoria del proyectil describa una curva en forma de parábola. La velocidad horizontal del proyectil se mantiene constante a lo largo de todo el recorrido, mientras que la velocidad vertical va disminuyendo debido a la fuerza de la gravedad.
 
@@ -333,7 +343,7 @@ donde alturaInicial es la altura inicial del proyectil.
 
 Se muestra el resultado de la distancia recorrida, la altura máxima alcanzada y el tiempo de vuelo en la consola utilizando el método printf de la clase System.out.
 
-7 Cálculo del costo de energía eléctrica de un electrodoméstico
+**7 Cálculo del costo de energía eléctrica de un electrodoméstico**
 Para calcular el costo de energía eléctrica de un electrodoméstico, se deben seguir los siguientes pasos: Determinar la potencia del electrodoméstico en vatios. Esta información se puede encontrar en la etiqueta del electrodoméstico o en el manual del usuario.
 
 Determinar el tiempo de uso diario del electrodoméstico en horas. Este valor puede variar dependiendo del usuario y del electrodoméstico. Determinar el precio por unidad de energía eléctrica. Este valor se encuentra en la factura de energía eléctrica o se puede consultar con el proveedor de energía eléctrica.
@@ -388,8 +398,8 @@ public class CalculoCostoEnergiaElectrica {
 
 En este ejemplo, se utiliza la clase Scanner para solicitar al usuario la potencia del electrodoméstico, el tiempo de uso diario, el precio por kilovatio-hora en pesos y el número de días del mes. Luego, se realiza el cálculo del consumo mensual de energía eléctrica en kilovatios-hora y se utiliza la fórmula del costo de energía eléctrica para calcular el costo mensual en pesos. Se divide entre 1000 para convertir el precio por kilovatio-hora en pesos. Finalmente, se imprime el resultado en pantalla con el formato de dos decimales y separador de miles.
 
-8 Programa en Java para formar subgrupos con integrantes aleatorios de igual cantidad
-Programa en Java para formar subgrupos con integrantes aleatorios de igual cantidad a partir de una lista de integrantes:
+**8 Programa en Java para formar subgrupos con integrantes aleatorios de igual cantidad
+Programa en Java para formar subgrupos con integrantes aleatorios de igual cantidad a partir de una lista de integrantes:**
 
 import java.util.ArrayList;
 import java.util.Collections;
