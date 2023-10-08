@@ -53,6 +53,8 @@ La mediana es el elemento central de un grupo ordenado cuando la cantidad de ele
 
 ## DESARROLLO
 
+## 1
+
 String e2_color1 = "";
 String e2_color2 = "";
 String e2_color3 = "";
@@ -270,5 +272,11 @@ private int convertirColor(String color) {
     }
     return res;
 }
+
+
+## 2
+
+
+
 
 [Siguiente](./sesion10.md)
