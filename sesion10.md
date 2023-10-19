@@ -500,9 +500,8 @@ Ingrese la lista de personas separadas por coma: Juan, Pedro, María, Ana, Luis,
 El programa asignará los ejercicios aleatoriamente a las personas y mostrará el resultado en pantalla.
 
 
-## Actividad: Prueba, ejecución y explicación de ejercicios de lógica de programación.
 
-Selecciona dos ejercicios de la sesión 10, impleméntalos, ejecútalos y proporciona una explicación detallada de cada uno
+
 
 
 [Siguiente](./sesion11.md)
