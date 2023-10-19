@@ -202,7 +202,107 @@ Implementar los siguientes métodos:
 
 ## DESARROLLO
 
-5
+## 1
+
+public class MayorDeDosNumeros {
+
+public static int encontrarMayor(int num1, int num2) {
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
+
+public static void main(String[] args) {
+    // Ejemplo de uso del método
+    int numero1 = 15;
+    int numero2 = 9;
+    
+    int resultado = encontrarMayor(numero1, numero2);
+    
+    System.out.println("El número mayor entre " + numero1 + " y " + numero2 + " es " + resultado);
+} }
+
+## 2 
+
+public class MetodosenJava {
+
+public static void main(String[] args) {
+    String texto = "Somos el tiempo que nos queda";
+    int numeroVocales = contarVocales(texto);
+    System.out.println("El número de vocales en la cadena es: " + numeroVocales);
+}
+
+public static int contarVocales(String texto) {
+    int contador = 0;
+    // Convertimos la cadena a minúsculas para simplificar la comparación
+    texto = texto.toLowerCase();
+
+    for (int i = 0; i < texto.length(); i++) {
+        char caracter = texto.charAt(i);
+        // Verificamos si el caracter es una vocal
+        if (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') {
+            contador++;
+        }
+    }
+
+    return contador;
+} 
+}
+
+## 3 
+
+public class CambioMayusculasMinusculas {
+
+public static String cambiarMayusculasMinusculas(String texto) {
+    StringBuilder resultado = new StringBuilder();
+
+    for (int i = 0; i < texto.length(); i++) {
+        char caracter = texto.charAt(i);
+        if (Character.isUpperCase(caracter)) {
+            resultado.append(Character.toLowerCase(caracter));
+        } else if (Character.isLowerCase(caracter)) {
+            resultado.append(Character.toUpperCase(caracter));
+        } else {
+            resultado.append(caracter);
+        }
+    }
+
+    return resultado.toString();
+}
+
+public static void main(String[] args) {
+    String textoOriginal = "Somos El Tiempo Que Nos Queda";
+    String textoCambiado = cambiarMayusculasMinusculas(textoOriginal);
+    System.out.println("Texto Original: " + textoOriginal);
+    System.out.println("Texto Cambiado: " + textoCambiado);
+} }
+
+## 4
+
+public class ContadorPalabras {
+
+public static int contarPalabras(String texto) {
+    if (texto == null || texto.isEmpty()) {
+        return 0;
+    }
+
+    // Divide la cadena en palabras usando el espacio en blanco como delimitador
+    String[] palabras = texto.split("\\s+");
+
+    // Retorna el número de palabras
+    return palabras.length;
+}
+
+public static void main(String[] args) {
+    String texto = "Somos el tiempo que nos queda, mucho";
+    int numeroDePalabras = contarPalabras(texto);
+    System.out.println("Número de palabras en el texto: " + numeroDePalabras);
+} }
+
+
+## 5
 
 /*
 *- Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
