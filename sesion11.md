@@ -3,6 +3,28 @@
 
 ## Sesión 11 
 
+## Ejercicios de Lógica de Programación
+
+### Ejercicio 1
+
+Dado un conjunto de números enteros, se debe determinar si existe un número que aparezca más de una vez. Si existe, se debe imprimir su valor.
+
+![Alt text](image-10.png)
+
+### Ejercicio 2
+
+Conversión de decimal a binario. La conversión de decimal a binario es el proceso de convertir un número decimal a su representación binaria. El sistema binario es un sistema de numeración basado en dos dígitos, 0 y 1.
+
+**Utilizando bucle while**
+
+![Alt text](image-11.png)
+
+Este algoritmo funciona dividiendo el número decimal por 2 repetidamente. Cada vez que se divide el número, el resto se almacena en la cadena. El proceso se repite hasta que el número decimal es 0.
+
+Por ejemplo, para convertir el número decimal 10 a binario, el algoritmo funcionaría de la siguiente manera
+
+![Alt text](image-12.png)
+
 ## Actividad: Ejercicios de Lógica de Programación
 
 1. Basándose en el algoritmo 1 de la sesión 11, aplicar la siguiente variante: Dado un conjunto de números enteros, se debe determinar si existe algún número que aparezca más de una vez. Si es así, se deben imprimir todos los números que aparezcan más de una vez.
