@@ -145,7 +145,7 @@ Desviación estándar = 7.236
 
 ## 3
 
- ## Cálculo del índice de masa corporal (IMC)
+## Cálculo del índice de masa corporal (IMC)
 
 El índice de masa corporal (IMC) es una medida que se utiliza para evaluar si una persona tiene un peso saludable en relación con su altura. Se calcula dividiendo el peso de una persona en kilogramos entre el cuadrado de su altura en metros (kg/m²).**
 
@@ -270,7 +270,7 @@ Finalmente, se muestra el resultado en la consola utilizando el método printf d
 
 ## 6 Calcular el movimiento parabólico de un proyectil
 
-El movimiento parabólico de un proyectil es un tipo de movimiento en el cual un objeto es lanzado con una velocidad inicial y se mueve siguiendo una trayectoria curva en forma de parábola debido a la influencia de la gravedad. Este tipo de movimiento se caracteriza por tener tanto una componente horizontal como una vertical.**
+El movimiento parabólico de un proyectil es un tipo de movimiento en el cual un objeto es lanzado con una velocidad inicial y se mueve siguiendo una trayectoria curva en forma de parábola debido a la influencia de la gravedad. Este tipo de movimiento se caracteriza por tener tanto una componente horizontal como una vertical.
 
 Durante el movimiento parabólico de un proyectil, la fuerza de la gravedad actúa sobre el objeto, lo que hace que la trayectoria del proyectil describa una curva en forma de parábola. La velocidad horizontal del proyectil se mantiene constante a lo largo de todo el recorrido, mientras que la velocidad vertical va disminuyendo debido a la fuerza de la gravedad.
 
@@ -527,5 +527,34 @@ Este programa solicita al usuario la altura y el ancho de la pared en metros, as
 
 ## Ejercicio 2
 
+Calcular el movimiento parabólico de un proyectil
+
+**Espero que esta explicación te haya sido útil para entender qué es el movimiento parabólico de un proyectil.**
+
+El ángulo que produce la mayor distancia para un proyectil lanzado con una velocidad inicial dada es de 45 grados. Este ángulo se conoce como el ángulo de lanzamiento óptimo.
+
+La razón por la cual el ángulo de lanzamiento óptimo es de 45 grados es que a este ángulo, la velocidad inicial del proyectil se descompone en dos componentes iguales, una horizontal y otra vertical. La componente horizontal de la velocidad se mantiene constante durante todo el vuelo del proyectil, mientras que la componente vertical disminuye debido a la fuerza de la gravedad.
+
+A medida que el ángulo de lanzamiento se acerca a 0 grados (lanzamiento horizontal), la distancia recorrida por el proyectil disminuye debido a que la componente vertical de la velocidad se vuelve muy pequeña. Por otro lado, a medida que el ángulo de lanzamiento se acerca a 90 grados (lanzamiento vertical), la distancia recorrida también disminuye debido a que la componente horizontal de la velocidad se vuelve muy pequeña.
+
+En resumen, el ángulo de lanzamiento óptimo para maximizar la distancia recorrida por un proyectil lanzado con una velocidad inicial dada es de 45 grados.
+
+A continuación te presento un ejemplo en Java de cómo calcular el movimiento parabólico de un proyectil:
+
+![Alt text](image-14.png)
+
+**En este programa, primero se solicita al usuario que ingrese la velocidad inicial en metros por segundo, el ángulo de lanzamiento en grados y la altura inicial en metros.**
+
+A continuación, se calcula la velocidad en los ejes x e y utilizando las fórmulas:
+
+![Alt text](image-15.png)
+
+donde velocidadInicial es la velocidad inicial del proyectil, angulo es el ángulo de lanzamiento en grados, cos y sin son las funciones trigonométricas del coseno y el seno, respectivamente.
+
+Luego, se calcula el tiempo de vuelo utilizando la fórmula:
+
+![Alt text](image-16.png)
+
+Se muestra el resultado de la distancia recorrida, la altura máxima alcanzada y el tiempo de vuelo en la consola utilizando el método printf de la clase System.out.
 
 [Siguiente](./sesion11.md)
