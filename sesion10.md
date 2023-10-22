@@ -51,7 +51,7 @@ En este ejemplo, el programa solicita al usuario que ingrese el monto del depós
 
 ## 2
 
- ## Calcular la desviación estándar
+## Calcular la desviación estándar
 
 La desviación estándar es una medida estadística que indica cuánto varían los valores de un conjunto de datos respecto a la media aritmética. En otras palabras, mide la dispersión de los datos alrededor de la media.**
 
@@ -512,7 +512,20 @@ public class AsignacionEjercicios {
 
 
 
+## DESARROLLO
 
+## Actividad: Prueba, ejecución y explicación de ejercicios de lógica de programación.
+
+Selecciona dos ejercicios de la sesión 10, impleméntalos, ejecútalos y proporciona una explicación detallada de cada uno
+
+## Ejercicio 1
+
+Este programa solicita al usuario la altura y el ancho de la pared en metros, así como la cantidad de ladrillos necesarios por metro cuadrado. Luego, calcula el área de la pared y multiplica esta área por la cantidad de ladrillos por metro cuadrado para obtener la cantidad total de ladrillos necesarios. Finalmente, muestra la cantidad de ladrillos necesarios en la pantalla. Puedes adaptar este programa según tus necesidades y considerar otros materiales o dimensiones en tu cálculo si es necesario.
+
+![Alt text](image-13.png)
+
+
+## Ejercicio 2
 
 
 [Siguiente](./sesion11.md)
