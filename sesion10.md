@@ -520,10 +520,15 @@ Selecciona dos ejercicios de la sesión 10, impleméntalos, ejecútalos y propor
 
 ## Ejercicio 1
 
+En este programa, además de solicitar las dimensiones de la pared, también se solicitan las dimensiones del ladrillo: largo, alto y ancho. Luego se calcula el área del ladrillo multiplicando el largo por el alto.
+
+Para calcular la cantidad de ladrillos necesarios, se divide el área de la pared entre el área de un ladrillo (considerando las dimensiones del ladrillo ingresadas) y el ancho de la pared dividido por el ancho del ladrillo. El resultado se redondea hacia arriba con la función Math.ceil. Finalmente, se muestra el resultado en la consola utilizando el método printf de la clase System.out.
+
 Este programa solicita al usuario la altura y el ancho de la pared en metros, así como la cantidad de ladrillos necesarios por metro cuadrado. Luego, calcula el área de la pared y multiplica esta área por la cantidad de ladrillos por metro cuadrado para obtener la cantidad total de ladrillos necesarios. Finalmente, muestra la cantidad de ladrillos necesarios en la pantalla. Puedes adaptar este programa según tus necesidades y considerar otros materiales o dimensiones en tu cálculo si es necesario.
 
 ![Alt text](image-13.png)
 
+![Alt text](image-17.png)
 
 ## Ejercicio 2
 
@@ -556,5 +561,7 @@ Luego, se calcula el tiempo de vuelo utilizando la fórmula:
 ![Alt text](image-16.png)
 
 Se muestra el resultado de la distancia recorrida, la altura máxima alcanzada y el tiempo de vuelo en la consola utilizando el método printf de la clase System.out.
+
+
 
 [Siguiente](./sesion11.md)
