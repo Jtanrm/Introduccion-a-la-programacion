@@ -463,6 +463,7 @@ Subgrupo 3: [María, Laura]
 ## 9  
 
 ## Programa en Java para asignar aleatoriamente ejercicios a un grupo de personas sin repetir
+
 Programa en Java para asignar aleatoriamente ejercicios a un grupo de personas sin repetir y en igual cantidad, asumiendo que la cantidad de ejercicios es determinada por la lista de personas:
 
 
@@ -507,10 +508,7 @@ public class AsignacionEjercicios {
 
 
 
-En este programa, se utiliza la clase Scanner para solicitar al usuario la lista de personas separadas por coma. Se obtiene la cantidad de ejercicios a partir de la longitud de la lista de personas y se genera una lista de ejercicios aleatorios sin repetir utilizando el método shuffle de la clase Collections. Luego, se mezcla la lista de personas para asignarles ejercicios aleatorios y se imprimen los resultados en pantalla. Por ejemplo, si se ingresan los siguientes datos:
-
-Ingrese la lista de personas separadas por coma: Juan, Pedro, María, Ana, Luis, Carlos, Diana, Laura
-El programa asignará los ejercicios aleatoriamente a las personas y mostrará el resultado en pantalla.
+**En este programa, se utiliza la clase Scanner para solicitar al usuario la lista de personas separadas por coma. Se obtiene la cantidad de ejercicios a partir de la longitud de la lista de personas y se genera una lista de ejercicios aleatorios sin repetir utilizando el método shuffle de la clase Collections. Luego, se mezcla la lista de personas para asignarles ejercicios aleatorios y se imprimen los resultados en pantalla. Por ejemplo, si se ingresan los siguientes datos:**
 
 
 
