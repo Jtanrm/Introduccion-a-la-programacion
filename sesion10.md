@@ -3,11 +3,11 @@
 
 ## Sesión 10 
 
-### Ejercicios de Lógica de Programación
+## Ejercicios de Lógica de Programación
 
-**1** 
+## 1
 
-**Crear un programa en Java para calcular el interés de un CDT**
+## Crear un programa en Java para calcular el interés de un CDT
 
 Un CDT (Certificado de Depósito a Término) es un producto financiero en el que un inversor deposita una cantidad de dinero en un banco por un plazo determinado y a cambio recibe una tasa de interés fija. Al final del plazo, el inversor recupera su inversión inicial más los intereses generados. Aquí hay un ejemplo de cómo crear un programa en Java para calcular el interés de un CDT:
 
@@ -49,8 +49,9 @@ public class Main {
 
 En este ejemplo, el programa solicita al usuario que ingrese el monto del depósito, la tasa de interés anual y el plazo en meses. Luego, el programa utiliza fórmulas matemáticas simples para calcular el interés mensual y el monto total al vencimiento. Finalmente, el programa muestra un resumen del CDT que incluye el monto del depósito, la tasa de interés anual, el plazo en meses, el interés mensual y el monto total al vencimiento. Este programa puede ser útil para las personas que desean invertir en un CDT y desean calcular los intereses que pueden generar. También puede ser utilizado por los profesionales financieros que deseen calcular los intereses de los CDTs de sus clientes.
 
-**2**
- **Calcular la desviación estándar
+## 2
+
+ ## Calcular la desviación estándar
 La desviación estándar es una medida estadística que indica cuánto varían los valores de un conjunto de datos respecto a la media aritmética. En otras palabras, mide la dispersión de los datos alrededor de la media.**
 
 La desviación estándar se calcula tomando la raíz cuadrada de la varianza, donde la varianza es la suma de los cuadrados de las diferencias entre cada valor y la media aritmética, dividido entre el número de valores menos uno.
@@ -141,9 +142,9 @@ El resultado para el conjunto de datos {5, 10, 12, 15, 20} sería:
 Media aritmética = 12.0
 Desviación estándar = 7.236
 
-**3**
+## 3
 
- **Cálculo del índice de masa corporal (IMC)
+ ## Cálculo del índice de masa corporal (IMC)
 El índice de masa corporal (IMC) es una medida que se utiliza para evaluar si una persona tiene un peso saludable en relación con su altura. Se calcula dividiendo el peso de una persona en kilogramos entre el cuadrado de su altura en metros (kg/m²).**
 
 El IMC es una herramienta útil para determinar si una persona tiene un peso saludable, está por debajo de su peso ideal o tiene sobrepeso o obesidad. Aunque el IMC no mide directamente la cantidad de grasa corporal, se ha encontrado que existe una relación entre el IMC y el porcentaje de grasa corporal. Por lo tanto, el IMC se utiliza como un indicador general de la salud y el riesgo de ciertas enfermedades relacionadas con el peso, como la diabetes, la hipertensión y las enfermedades cardiovasculares.
